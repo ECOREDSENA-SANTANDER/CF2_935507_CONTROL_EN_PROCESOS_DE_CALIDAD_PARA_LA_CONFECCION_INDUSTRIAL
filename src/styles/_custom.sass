@@ -3,12 +3,14 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 60%
+    width: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 41%
+    right: 5%
+    width: 25%
 
 @keyframes float1
   0%
@@ -17,6 +19,10 @@
     transform: translateY(0px)
   
 
+.text-izq
+  text-align: left !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner-interno.png") !important 
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
@@ -27,4 +33,19 @@
   color: $color-primario
 figcaption
   font-weight: normal
- 
+.acordion__accion__btn--a 
+  background-color: #F59E0B !important
+.acordion .tarjeta--azul
+  background-color: #334155 !important
+  h3, 
+    color: white
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #C0F1E1 !important
+  h3, 
+    color: #12263F 
+.izq
+  margin-left: -0.7rem
+.bg01
+  background-color: #BBC3DC
+.cajon.color-acento-contenido 
+   background-color: #C0F1E1

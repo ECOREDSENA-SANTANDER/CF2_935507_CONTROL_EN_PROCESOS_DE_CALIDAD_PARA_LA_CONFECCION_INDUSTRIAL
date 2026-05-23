@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Maquinaria, equipos y elementos de confección',
+    Description:
+      'Reconocer las partes y funciones de las máquinas básicas y especializadas, para establecer sus diferencias y similitudes. Identificar la utilidad de cada máquina en los procesos de la línea de producción. La aguja es un elemento elemental para el funcionamiento de la máquina; identificar los tipos de aguja, para seleccionar la aguja adecuada para la producción a elaborar. Especificar la aplicación de los pies, guías, aditamentos según la línea de producto. Reconocer los sistemas de medición y su aplicación para el control de la calidad.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +32,58 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Maquinaria y equipos en diferentes líneas de producción',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Maquinaria y equipo en ropa exterior',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Maquinaria y equipo ropa interior',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Maquinaria y equipo ropa deportiva',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Maquinaria y equipo ropa en denim',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Maquinaria en procesos especiales',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Elementos de confección',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Partes y clasificación de las agujas de confección',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Guías y accesorios en diferentes máquinas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Instrumentos de medición',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -105,14 +136,95 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Dobladillo',
+      significado:
+        'es el borde de la tela doblada dos veces sobre sí misma y asegurada con puntadas a mano o a máquina en la parte inferior de faldas, vestidos, pantalones y orillos de mangas etc.',
+    },
+    {
+      termino: 'Empalme / empate',
+      significado: 'sobreponer unas puntadas sobre otras ya existentes.',
+    },
+    {
+      termino: 'Guías',
+      significado:
+        'accesorios acondicionados a las máquinas para facilitar y agilizar el trabajo y la terminación de las prendas.',
+    },
+    {
+      termino: '<i>Looper</i>',
+      significado: 'garfio, pieza que se enhebra hilo para formar lazada.',
+    },
+    {
+      termino: 'Motor de <i>clutch</i>',
+      significado:
+        'se utiliza para máquinas de coser industriales, este motor maneja diferentes rpm que varían dependiendo de la clase de máquina.',
+    },
+    {
+      termino: 'Prehormar',
+      significado:
+        'planchar las piezas de los bolsillos doblando los orillos de acuerdo con el ancho de costura, se utiliza una plantilla para que quede conforme a las medidas especificadas.',
+    },
+    {
+      termino: 'Presilla',
+      significado:
+        'costura en zigzag, usada para reforzar otra costura sobre la cual se coloca o una pieza, para evitar se descosa o exista desgarre (rompa) de material.',
+    },
+    {
+      termino: 'Proceso',
+      significado:
+        'son las diferentes etapas que se requieren y siguen para elaborar un producto.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'COATS Group. (2020). Todo sobre agujas. COATS.',
       link: '',
+    },
+    {
+      referencia:
+        'Escamilla Esquivel, A. (2015). Metrología y sus aplicaciones. Grupo Editorial Patria.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39456?page=51',
+    },
+    {
+      referencia:
+        'Gómez, S. (2020, 5 julio). Asesoría, diseño, fabricación de todo tipo de folders - Guías para máquinas de coser.',
+      link: 'http://aditamentossaulgomez.blogspot.com/',
+    },
+    {
+      referencia:
+        'Groz-Beckert. (2020). Sewing machine needles for the clothing industry. Groz-Beckert.',
+      link:
+        'https://www.groz-beckert.com/en/products/sewing/bekleidungsindustrie/',
+    },
+    {
+      referencia:
+        'Groz-Beckert. (2019). Sewing machine needles for the apparel industry (p. 6).',
+      link:
+        'https://www.groz-beckert.com/mm/media/en/web/pdf/Sewing_machine_needles_for_the_apparel_industry.pdf',
+    },
+    {
+      referencia:
+        'ManualsLib. Brother ZM-851A máquina zigzadora. Manual de instrucciones (p. 15).',
+      link:
+        'https://www.manualslib.com/manual/442708/Brother-Zm-851a.html?page=15#manual',
+    },
+    {
+      referencia:
+        'ManualsLib. Enhebrado de la máquina - JUKI MO-6704D. Manual de instrucciones (p. 5, 40).',
+      link:
+        'https://www.manualslib.com/manual/559355/Juki-Mo-6704d.html?page=40#manual',
+    },
+    {
+      referencia:
+        'ManualsLib. Etiquetas de advertencia - Brother T-8422A. Manual de instrucciones (p. 5).',
+      link:
+        'https://www.manualslib.com/manual/442249/Brother-T-8422a.html?page=5#manual',
+    },
+    {
+      referencia:
+        'ManualsLib. Nombre de las piezas principales - Brother DA-9280. Manual de instrucciones. Máquina de brazo de tres agujas (2 agujas) de cadeneta (p. 8).',
+      link:
+        'https://www.manualslib.com/manual/482480/Brother-Da-9280.html?page=8#manual',
     },
   ],
   creditos: [
@@ -121,8 +233,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
