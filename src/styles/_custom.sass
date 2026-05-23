@@ -28,7 +28,7 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: #12263F  !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
@@ -45,7 +45,81 @@ figcaption
     color: #12263F 
 .izq
   margin-left: -0.7rem
+.titulo-segundo:after 
+  border-left-color: #1E3A8A
+
 .bg01
   background-color: #BBC3DC
+.bg02
+  background-color: #334155
+  border-top-left-radius: 60px
+.bg03
+  background-color: #F3F9FF
+  border-radius: 20px
+.bg04
+  background-color: #2ED19B
+  border-radius: 20px
+.bg05
+  background-color: #182E6E
+.bg07
+  background-color: #104936
+  border-top-right-radius: 60px
+.bg08
+  background-color: #C1C5CB
+.bg09
+  background-color: #1E3A8A
 .cajon.color-acento-contenido 
    background-color: #C0F1E1
+.cajon.color-primario 
+  background-color: #C1C5CB
+
+.w-card-icon
+  width: min-content
+  z-index: 1
+.w-card-text
+  position: relative
+  padding-left: 50px
+  padding-right: 50px
+  left: -30px
+  top: 8px
+.tabla-calibre-especial
+  width: 100% !important
+  overflow: visible !important
+
+  .tabla-a__wrapper
+    overflow: visible !important
+
+  table
+    width: 100% !important
+    min-width: unset !important
+    table-layout: fixed !important
+
+  th,
+  td
+    padding: 0.5rem
+    font-size: inherit !important
+    word-break: break-word
+
+  th:nth-child(1),
+  td:nth-child(1)
+    width: 25%
+
+  th:nth-child(2),
+  td:nth-child(2)
+    width: 25%
+
+  th:nth-child(3),
+  td:nth-child(3)
+    width: 50%
+
+@media (max-width: 991px)
+  .tabla-calibre-especial
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch
+
+    .tabla-a__wrapper
+      overflow-x: auto !important
+
+    table
+      min-width: 650px !important
+      table-layout: auto !important
