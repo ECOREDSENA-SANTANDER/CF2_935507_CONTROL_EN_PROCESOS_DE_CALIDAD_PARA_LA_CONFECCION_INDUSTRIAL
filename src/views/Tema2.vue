@@ -10,7 +10,7 @@
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.1  Partes y clasificación de las agujas de confección
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg02.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.bg02.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema2/img01.png')})`}"
       )
@@ -20,8 +20,8 @@
           br
           | Para mejorar la calidad de la aguja y prolongar su vida útil, se han desarrollado recubrimientos en nitruro de titanio para aumentar su resistencia al desgaste, sobre todo del ojo y punta.
 
-    .row.justify-content-center.align-items-center.mb-2.bg03.p-4
-      .col-lg-8
+    .row.justify-content-center.align-items-center.mb-2.bg03.p-4(data-aos="zoom-in-left")
+      .col-lg-8.col-md-10
         .titulo-sexto.color-secundario(data-aos='fade-right')
           h5 Figura 6.
           span Partes de la aguja.
@@ -33,18 +33,18 @@
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
             h3.bg04.py-2.w-card-text Sistemas de agujas
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-5.col-10.mb-3.col-md-8
         img(src="@/assets/curso/Tema2/img03.png")
       .col-lg-7
         .row
-          .col-lg-2.mb-3
+          .col-lg-2.mb-3.d-none.d-lg-block
             img(src="@/assets/curso/Tema2/img04.svg")
           .col-lg-12
             p Dependiendo del tipo de máquina, marca, modelo y proceso a desarrollar se estima el sistema de aguja, el cual debe adecuarse a la geometría de la máquina, se debe consultar el manual de instrucciones de la máquina para asignar la referencia o sistema.
             p En el siguiente cuadro se especifican algunas referencias de agujas más generalizadas:
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-3(data-aos="zoom-in-left")
       .col-lg-7
         .tabla-a.color-acento-contenido.mb-4
           table
@@ -77,7 +77,7 @@
               tr
                 td 501 - 558
                 td Ojaladora de ojal de lágrima.
-      .col-lg-5
+      .col-lg-5.col-10.col-md-8
         img(src="@/assets/curso/Tema2/img05.png")
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -86,7 +86,7 @@
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
             h3.bg04.py-2.w-card-text Tamaño de agujas
 
-    .row.justify-content-center.align-items-stretch.mb-4.bg01
+    .row.justify-content-center.align-items-stretch.mb-4.bg01(data-aos="zoom-in-left")
       .col-lg-5.d-flex
         img.izq.d-none.d-lg-block(src='@/assets/curso/Tema2/img06.png', alt='', style='object-fit: cover;')
       .col-lg-7.p-5
@@ -95,13 +95,13 @@
         p El grosor está directamente relacionado con el grosor de material a coser, entre más grueso el material se requiere mayor calibre de la aguja. El calibre se encuentra inscrito en el cabo de la aguja.
         p En la siguiente tabla se describen algunos calibres y su equivalencia en ambos sistemas y la aplicación en el tipo de material:
 
-    .row.justify-content-center.align-items-center.mb-2
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
       .col-lg-5
         .titulo-sexto.color-secundario(data-aos='fade-right')
           h5 Tabla 8.
           span Equivalencia en calibre de agujas y el material a coser.
 
-        .tabla-a.color-acento-contenido.mb-5.tabla-calibre-especial
+        .tabla-a.color-acento-contenido.mb-3.tabla-calibre-especial
           table
             thead
               tr
@@ -151,8 +151,8 @@
     p Las puntas de las agujas están relacionadas con el tipo de material a coser, las puntas de confección son redondas y aunque existen más de 20 tipos; tenemos 6 más utilizados los cuales se encuentran especificados en la siguiente figura:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      .col-lg-10.col-md-10
+        .titulo-sexto.color-secundario(data-aos='fade-right')
           h5 Figura 7.
           span Puntas de agujas.
         img(src='@/assets/curso/Tema2/fig7.svg', alt='Tabla técnica titulada "Puntas de agujas" que clasifica en ocho filas los diferentes tipos de puntas para maquinaria de costura industrial, sirviendo de guía para quienes seleccionan los insumos de confección. Cada fila contiene: a la izquierda, una ilustración del perfil de la aguja con un círculo que amplifica la silueta específica de su punta; al centro, las siglas técnicas (como TR, SKL, G, FG/SUK, FFG/SES, RG, R, RS) junto a la denominación del tipo de punta (puntas de bola especiales, pesada, mediana, fina, o puntas redondas ligeramente redondeada, normal y afilada); y a la derecha, una descripción detallada con la aplicación recomendada según el tipo de tejido o costura a realizar.')
@@ -164,7 +164,7 @@
     #t_2_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 2.2  Guías y accesorios en diferentes máquinas
 
-    .bloque-texto-g.bg07.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bg07.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema2/img07.png')})`}"
       )
@@ -177,12 +177,12 @@
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
             h3.bg04.py-2.w-card-text Máquina plana
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-5.mb-3.col-10.col-md-8
         img(src="@/assets/curso/Tema2/img08.png")
       .col-lg-7
         .row
-          .col-lg-2.mb-3
+          .col-lg-2.mb-3.d-none.d-lg-block
             img(src="@/assets/curso/Tema2/img09.svg")
           .col-lg-12
             p Los pies prensatela son accesorios que guían la costura en el proceso de confección de acuerdo con la operación, el ancho de costura o el insumo a coser, además de su variedad se encuentran recubiertos en material de teflón para facilitar el arrastre de materiales textiles sintéticos o delicados.
@@ -190,7 +190,7 @@
 
     p Los usos de pies prensatela más utilizados en la industria y de acuerdo con su operación se observan a continuación:
     
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
       .row.justify-content-center.align-items-center(titulo="Pie guía fijo")
         .col-lg-6.mb-3.mb-md-0
           p Se encuentra en varias medidas de pulgada, puede ser lado derecho o izquierdo. Guía el material en el ancho de costura del pie. Pespuntes en cuellos, puños.
@@ -257,16 +257,16 @@
 
     p Las guías más utilizadas son:
     
-    .row.mb-4
-      .col-md-6.col-lg.mb-5.mb-lg-0
+    .row.mb-3(data-aos="zoom-in-left")
+      .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta.bg08
           .p-3
             h5.mb-0.text-center Guías de tope
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta.bg08
           .p-3
             h5.mb-0.text-center Guías imanadas
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta.bg08
           .p-3
             h5.mb-0.text-center Folder o embudo sesgador
@@ -278,7 +278,7 @@
             h3.bg04.py-2.w-card-text  Máquina fileteadora
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-4.mb-4.mb-lg-0.d-flex
+      .col-lg-4.mb-4.mb-lg-0.d-flex.col-md-6
         img.w-100.h-100(src='@/assets/curso/Tema2/img10.png', alt='', style='object-fit: cover;')
 
       .col-lg-8.d-flex
@@ -294,7 +294,7 @@
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
             h3.bg04.py-2.w-card-text   Máquina recubridora
 
-    .bloque-texto-g.bg07.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bg07.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema2/img11.png')})`}"
       )
@@ -308,35 +308,156 @@
             h3.bg04.py-2.w-card-text  Guías y folders o embudos
     p #[b Guías dobladilladoras:] graduables, para piezas rectas o curvas.
 
+    .fondo01.p-5.mb-4(data-aos="zoom-in-left")
+        SlyderE(indicadores="derecha").fondo-interno.p-5
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-6.col-md-10.bg03.p-4.mb-3
+              .titulo-sexto.color-secundario(data-aos='fade-right')
+                h5 Figura 8.
+                span Guía dobladilladora graduable.
+              figure
+                img(src='@/assets/curso/Tema2/fig8.png', alt='La imagen muestra, en el lado izquierdo, un accesorio de costura metálico correspondiente a una guía dobladilladora graduable, la cual cuenta con una placa deslizante fijada por dos tornillos y marcas numéricas de medición. A su derecha, un diagrama esquemático ilustra cómo se pliega la tela para formar un dobladillo, indicando la posición de la costura mediante dos líneas rojas verticales que terminan en forma de zigzag. ')
+            .col-lg-5
+              ul.lista-ul.lista-ul--separador
+                li
+                  i.fas.fa-hilo
+                  | #[b Sesgadores:] sencillos o dobles, para cubrir orillos en escotes, sisas, dobladillos. De diferentes medidas de acuerdo con la medida del ancho de sesgo.
+                li
+                  i.fas.fa-hilo
+                  | #[b Sesgador aéreo:] fijar encima de la prenda, los llamados tipo Adidas, quien fue la marca que popularizado este tipo de sesgos.
+
+                li
+                  i.fas.fa-hilo
+                  | Sesgador para pasadores.
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-6.col-md-10.bg03.p-4
+              .titulo-sexto.color-secundario(data-aos='fade-right')
+                h5 Figura 9.
+                span Folder sesgador de máquina recubridora y tipo de costura.
+              figure
+                img(src='@/assets/curso/Tema2/fig9.png', alt='La imagen muestra, en el lado izquierdo, un accesorio metálico de costura conocido como folder sesgador, el cual cuenta con guías de alambre onduladas y piezas de metal plegadas. A su derecha, un diagrama ilustra el tipo de costura mostrando cómo una cinta de tela envuelve y se dobla sobre el borde de otra pieza plana, cruzada por una línea roja vertical que representa la ubicación de la puntada. En la parte superior se incluye el texto descriptivo "Figura 9. Folder sesgador de máquina recubridora y tipo de costura.".')
+            .col-lg-3.d-none.d-lg-block
+              img(src='@/assets/curso/Tema2/img12.png', alt='')
+
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-6.col-md-10.bg03.p-4.mb-3
+              .titulo-sexto.color-secundario(data-aos='fade-right')
+                h5 Figura 10.
+                span Dosificador de elástico y tipo de costura.
+              figure
+                img(src='@/assets/curso/Tema2/fig10.png', alt='La imagen muestra, del lado izquierdo, un accesorio metálico de costura correspondiente a un dosificador de elástico, equipado con múltiples varillas, guías y tornillos ajustables. A su derecha, un diagrama esquemático ilustra el tipo de costura mediante líneas negras horizontales que representan la disposición del material, atravesadas verticalmente por una línea roja en forma de zigzag. ')
+            .col-lg-5
+              h5 Adimentos
+              p Portarrollos, dosificadores de elásticos.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
+            h3.bg04.py-2.w-card-text  Máquinas especializadas
+
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center(titulo="Máquina dos agujas")
+        .col-lg-5.mb-3.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-hilo
+              | #[b Pies guía:] centro, lado derecho o izquierdo.
+            li
+              i.fas.fa-hilo
+              | #[b Folder tipo avión:] guía el sesgo cubre varilla en la copa de los brasieres.
+            li
+              i.fas.fa-hilo
+              | #[b Guía de almilla:] unir almilla.
+          
+        .col-lg-6.col-md-10.col-10
+          .titulo-sexto.color-secundario(data-aos='fade-right')
+            h5 Figura 11.
+            span Guía de almilla para dos agujas y tipo de costura.
+          figure
+            img(src='@/assets/curso/Tema2/fig11.png', alt='La imagen muestra una guía metálica de almilla para máquina de coser de dos agujas en el lado izquierdo, junto con un diagrama explicativo a su derecha. El diagrama ilustra mediante líneas cómo se pliegan y superponen las piezas de tela, destacando en color rojo la línea por donde pasa la costura. ')
+      .row.justify-content-center.align-items-center(titulo="Máquina zigzadora")
+        .col-lg-4.mb-3.mb-md-0
+          p #[b Pie encauchar:] especiales para guiar los elásticos decorativos.
+          
+        .col-lg-6.col-md-10.col-10
+          figure
+            img(src='@/assets/curso/Tema2/img13.png', alt='')
+      
+      .row.justify-content-center.align-items-center(titulo="Adimentos")
+        .col-lg-5.mb-3.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-hilo
+              | Dosificadores de elásticos.
+            li
+              i.fas.fa-hilo
+              | Portarrollos.
+
+          
+        .col-lg-6.col-md-10.col-10
+          .titulo-sexto.color-secundario(data-aos='fade-right')
+            h5 Figura 12.
+            span Portarrollos para zigzadora con dosificador de elástico.
+          figure
+            img(src='@/assets/curso/Tema2/fig12.png', alt='La imagen muestra un accesorio de costura metálico fotografiado sobre un fondo blanco. El dispositivo consta de grandes discos blancos en la parte superior diseñados para sostener un carrete, los cuales están unidos a una estructura articulada de varillas de metal que incluye bases ajustables y guías en la parte inferior. ')
+
+    separador
+    #t_2_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
+      h2 2.3  Instrumentos de medición
+
+    .row.justify-content-center.align-items-stretch.mb-4.bg002(data-aos="zoom-in-left")
+      .col-lg-7.align-items-center.p-5.mb-0.text-white
+        br
+        br
+        p La medición es un proceso que permite medir (obtener datos) de alguna magnitud, de la cual resulta un valor que corresponde a la relación del objeto de estudio y la unidad de referencia, lo que permite comparar con los patrones definidos en el sistema métrico. “Un instrumento de medición es un equipo, aparato o máquina que realiza la lectura de una propiedad (o característica) de una variable aleatoria; la procesa, la traduce y la hace entendible al analista encargado de la medición”. (Escamilla, 2015, p. 38)
+        p Se requiere utilizar los instrumentos de medición de longitud para poder realizar la toma de medidas en patrones, piezas, costuras y prendas terminadas. Cabe anotar que existen instrumentos de medición análogos y digitales, que registran las medidas con precisión, es decir que miden las magnitudes con un error mínimo.
+      .col-lg-5.d-flex
+        img.w-100.h-100.der.d-none.d-lg-block(src='@/assets/curso/Tema2/img14.png', alt='', style='object-fit: cover;')
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
+            h3.bg04.py-2.w-card-text  Calibrador o galga
+
+    .cajon.color-secundario.p-4.mb-4
+      p Este es un instrumento de precisión usado para toma de medidas específicas y exactas, especialmente ángulos y longitudes muy pequeñas. En la siguiente figura se observa un instrumento especialmente desarrollado por el SENA para este tipo de mediciones, en el cual los centímetros se convierten en fracciones de pulgada, como se observa en los laterales superior e inferior y lateral derecho, lo que facilita la medición de los anchos de costuras, y las puntadas por pulgada.
+
+    h4 Calibrador o galga
+    p #[b Guías dobladilladoras:] graduables, para piezas rectas o curvas.
+
+    .bg03.p-5.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center
+        .col-lg-6.col-md-10
+          .titulo-sexto.color-secundario(data-aos='fade-right')
+            h5 Figura 13.
+            span Guía Dobladilladora graduable
+          img(src='@/assets/curso/Tema2/figu13.png', alt='Herramienta de medición de forma cuadrada denominada Calibrador, identificada institucionalmente con el logotipo del SENA en el centro. El diseño cuenta con una regla graduada en su margen izquierdo numerada del cero al cinco, y ranuras de inspección distribuidas en sus bordes perimetrales acompañadas por sus respectivas especificaciones de medida en fracciones de pulgada.')
+
+    p El pie de rey o #[b #[em calibrador de Vernier]] se utiliza para la calibración de las partes de la máquina y medición de accesorios de acuerdo con el tipo de máquina. La escala principal de este tipo de calibradores es de pulgadas y milímetros.
+    
+    .bg10.p-5.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-11.col-md-10
+          .titulo-sexto.color-secundario(data-aos='fade-right')
+            h5 Figura 14.
+            span Calibrador de Vernier o Pie de rey.
+          img(src='@/assets/curso/Tema2/fig14.png', alt='La imagen muestra un calibrador de Vernier o pie de rey digital apoyado sobre unos planos técnicos. El instrumento tiene su pantalla encendida, indicando una medida de 14.73 mm.')
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
+            h3.bg04.py-2.w-card-text  Cinta métrica
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-12.mb-3
+        img(src='@/assets/curso/Tema2/img15.png', alt='')
+      .col-lg-12
+        p Herramienta que consiste en una cinta en material flexible, hasta 1, 5 metros; provisto de dos caras, se prefiere que por una cara contenga medidas en milímetros, centímetros y por el otro lado contenga las medidas en pulgadas. Se pueden medir superficies planas o curvas.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
 </template>
 
 <script>

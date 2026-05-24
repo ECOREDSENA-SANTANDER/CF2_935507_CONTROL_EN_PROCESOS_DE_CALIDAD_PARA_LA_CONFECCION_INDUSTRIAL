@@ -45,6 +45,8 @@ figcaption
     color: #12263F 
 .izq
   margin-left: -0.7rem
+.der
+  margin-left: 0.7rem
 .titulo-segundo:after 
   border-left-color: #1E3A8A
 
@@ -53,9 +55,14 @@ figcaption
 .bg02
   background-color: #334155
   border-top-left-radius: 60px
+.bg002
+  background-color: #334155
 .bg03
   background-color: #F3F9FF
   border-radius: 20px
+@media screen and (max-width: 767px)
+  .bg03
+    background: transparent !important
 .bg04
   background-color: #2ED19B
   border-radius: 20px
@@ -68,11 +75,18 @@ figcaption
   background-color: #C1C5CB
 .bg09
   background-color: #1E3A8A
+.bg10
+  background-color: #C0F1E1
+  border-radius: 20px
 .cajon.color-acento-contenido 
    background-color: #C0F1E1
 .cajon.color-primario 
   background-color: #C1C5CB
-
+.cajon.color-secundario
+  background-color: #C1C5CB
+.fa-hilo
+  content: url('../assets/curso/Tema2/hilo.svg')
+  align-self: flex-start !important
 .w-card-icon
   width: min-content
   z-index: 1
@@ -123,3 +137,33 @@ figcaption
     table
       min-width: 650px !important
       table-layout: auto !important
+
+.fondo01
+  background-image: url('../assets/curso/Tema2/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem
+    background-size: cover 
+
+@media screen and (max-width: 767px)
+  .fondo01.p-5
+    padding: 1rem !important
+
+.fondo-interno
+  background-image: url('../assets/curso/Tema2/banner-interno.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover
+
+.slyder__btn 
+  background-color: #F59E0B
