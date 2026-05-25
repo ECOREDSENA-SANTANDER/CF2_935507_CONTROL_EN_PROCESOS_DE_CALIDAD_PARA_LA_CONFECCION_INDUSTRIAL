@@ -456,8 +456,36 @@
       .col-lg-12
         p Herramienta que consiste en una cinta en material flexible, hasta 1, 5 metros; provisto de dos caras, se prefiere que por una cara contenga medidas en milímetros, centímetros y por el otro lado contenga las medidas en pulgadas. Se pueden medir superficies planas o curvas.
 
-
       
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>

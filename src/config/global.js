@@ -248,9 +248,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Experto temático',
-          centro: '--',
+          nombre: 'Sandra Cecilia Gutiérrez',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -258,12 +258,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
