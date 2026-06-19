@@ -176,55 +176,48 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'COATS Group. (2020). Todo sobre agujas. COATS.',
+      referencia: 'COATS Group. (2020). Todo sobre agujas.',
       link: '',
     },
     {
       referencia:
         'Escamilla Esquivel, A. (2015). Metrología y sus aplicaciones. Grupo Editorial Patria.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39456?page=51',
+      link: '',
     },
     {
       referencia:
-        'Gómez, S. (2020, 5 julio). Asesoría, diseño, fabricación de todo tipo de folders - Guías para máquinas de coser.',
-      link: 'http://aditamentossaulgomez.blogspot.com/',
+        'Gómez, S. (2020). Asesoría, diseño y fabricación de todo tipo de folders: Guías para máquinas de coser.',
+      link: '',
     },
     {
       referencia:
-        'Groz-Beckert. (2020). Sewing machine needles for the clothing industry. Groz-Beckert.',
-      link:
-        'https://www.groz-beckert.com/en/products/sewing/bekleidungsindustrie/',
+        'Groz-Beckert. (2020). Sewing machine needles for the clothing industry.',
+      link: '',
     },
     {
       referencia:
         'Groz-Beckert. (2019). Sewing machine needles for the apparel industry (p. 6).',
-      link:
-        'https://www.groz-beckert.com/mm/media/en/web/pdf/Sewing_machine_needles_for_the_apparel_industry.pdf',
+      link: '',
     },
     {
       referencia:
-        'ManualsLib. Brother ZM-851A máquina zigzadora. Manual de instrucciones (p. 15).',
-      link:
-        'https://www.manualslib.com/manual/442708/Brother-Zm-851a.html?page=15#manual',
+        'ManualsLib. (s.f.). Brother ZM-851A máquina zigzadora. Manual de instrucciones (p. 15).',
+      link: '',
     },
     {
       referencia:
-        'ManualsLib. Enhebrado de la máquina - JUKI MO-6704D. Manual de instrucciones (p. 5, 40).',
-      link:
-        'https://www.manualslib.com/manual/559355/Juki-Mo-6704d.html?page=40#manual',
+        'ManualsLib. (s.f.). Enhebrado de la máquina. JUKI MO-6704D. Manual de instrucciones (pp. 5, 40).',
+      link: '',
     },
     {
       referencia:
-        'ManualsLib. Etiquetas de advertencia - Brother T-8422A. Manual de instrucciones (p. 5).',
-      link:
-        'https://www.manualslib.com/manual/442249/Brother-T-8422a.html?page=5#manual',
+        'ManualsLib. (s.f.). Etiquetas de advertencia. Brother T-8422A. Manual de instrucciones (p. 5).',
+      link: '',
     },
     {
       referencia:
-        'ManualsLib. Nombre de las piezas principales - Brother DA-9280. Manual de instrucciones. Máquina de brazo de tres agujas (2 agujas) de cadeneta (p. 8).',
-      link:
-        'https://www.manualslib.com/manual/482480/Brother-Da-9280.html?page=8#manual',
+        'ManualsLib. (s.f.). Nombre de las piezas principales. Brother DA-9280. Manual de instrucciones. Máquina de brazo de tres agujas (2 agujas) de cadeneta (p. 8).',
+      link: '',
     },
   ],
   creditos: [
