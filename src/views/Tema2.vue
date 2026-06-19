@@ -25,7 +25,7 @@
         .titulo-sexto.color-secundario(data-aos='fade-right')
           h5 Figura 6.
           span Partes de la aguja.
-        img(src='@/assets/curso/Tema2/img02.svg', alt='Ilustración técnica titulada "Partes de la aguja" que detalla la anatomía de una aguja de costura industrial para la guía de quienes operan la maquinaria. El esquema se divide en tres partes: a la izquierda, muestra una aguja completa identificando el talón (butt), el tronco (shank) y la hoja (blade), con un círculo que amplía la punta mediante una lupa para señalar la ranura corta (short groove), el ojo (eye), la punta (point) y el extremo (tip). A la derecha, dos vistas complementarias de perfil identifican la ranura larga (long groove), la hendidura (scarf), la segunda ranura larga (second long groove) y el rebaje (land).')
+        img(src='@/assets/curso/Tema2/fig6.svg', alt='Ilustración técnica titulada "Partes de la aguja" que detalla la anatomía de una aguja de costura industrial para la guía de quienes operan la maquinaria. El esquema se divide en tres partes: a la izquierda, muestra una aguja completa identificando el talón (butt), el tronco (shank) y la hoja (blade), con un círculo que amplía la punta mediante una lupa para señalar la ranura corta (short groove), el ojo (eye), la punta (point) y el extremo (tip). A la derecha, dos vistas complementarias de perfil identifican la ranura larga (long groove), la hendidura (scarf), la segunda ranura larga (second long groove) y el rebaje (land).')
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -45,6 +45,9 @@
             p En el siguiente cuadro se especifican algunas referencias de agujas más generalizadas:
 
     .row.justify-content-center.mb-3(data-aos="zoom-in-left")
+      .titulo-sexto.color-secundario
+        h5 Tabla 7.
+        span Referencia de agujas de algunas máquinas de confección.
       .col-lg-7
         .tabla-a.color-acento-contenido.mb-4
           table
@@ -112,33 +115,39 @@
               tr
                 td 9
                 td 65
-                td(rowspan="2") Liviano
+                td Liviano
               tr
                 td 10
                 td 70
+                td Liviano
               tr
                 td 12
                 td 80
-                td(rowspan="2") Semipesado
+                td Semipesado
               tr
                 td 14
                 td 90
+                td Semipesado
               tr
                 td 16
                 td 100
-                td(rowspan="5") Pesado
+                td Pesado
               tr
                 td 18
                 td 110
+                td Pesado
               tr
                 td 20
                 td 120
+                td Pesado
               tr
                 td 21
                 td 130
+                td Pesado
               tr
                 td 22
                 td 140
+                td Pesado
 
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -148,7 +157,7 @@
             h3.bg04.py-2.w-card-text Puntas de agujas
 
 
-    p Las puntas de las agujas están relacionadas con el tipo de material a coser, las puntas de confección son redondas y aunque existen más de 20 tipos; tenemos 6 más utilizados los cuales se encuentran especificados en la siguiente figura:
+    p Las puntas de las agujas están relacionadas con el tipo de material a coser, las puntas de confección son redondas y aunque existen más de 20 tipos; tenemos 8 más utilizados los cuales se encuentran especificados en la siguiente figura:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-10
@@ -169,7 +178,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/Tema2/img07.png')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 Son elementos que mejoran la eficiencia y calidad de las operaciones, como también los procesos, por ende la calidad de las prendas. Existe gran variedad de guías, pies, aditamentos, y también los llamados folders, los cuales se pueden ordenar y fabricar según una especificación exclusiva o adecuada al tipo de producción.
+        p.mb-0 Son elementos que mejoran la eficiencia y calidad de las operaciones, como también los procesos, por ende la calidad de las prendas. Existe gran variedad de guías, pies, aditamentos, y también los llamados #[em folders], los cuales se pueden ordenar y fabricar según una especificación exclusiva o adecuada al tipo de producción.
        
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -269,7 +278,7 @@
       .col-md-6.col-lg.mb-3.mb-lg-0
         .tarjeta.bg08
           .p-3
-            h5.mb-0.text-center Folder o embudo sesgador
+            h5.mb-0.text-center #[em Folder] o embudo sesgador
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -305,7 +314,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text  Guías y folders o embudos
+            h3.bg04.py-2.w-card-text  Guías y #[em folders] o embudos
     p #[b Guías dobladilladoras:] graduables, para piezas rectas o curvas.
 
     .fondo01.p-5.mb-4(data-aos="zoom-in-left")
@@ -333,7 +342,7 @@
             .col-lg-6.col-md-10.bg03.p-4
               .titulo-sexto.color-secundario(data-aos='fade-right')
                 h5 Figura 9.
-                span Folder sesgador de máquina recubridora y tipo de costura.
+                span #[em Folder] sesgador de máquina recubridora y tipo de costura.
               figure
                 img(src='@/assets/curso/Tema2/fig9.png', alt='La imagen muestra, en el lado izquierdo, un accesorio metálico de costura conocido como folder sesgador, el cual cuenta con guías de alambre onduladas y piezas de metal plegadas. A su derecha, un diagrama ilustra el tipo de costura mostrando cómo una cinta de tela envuelve y se dobla sobre el borde de otra pieza plana, cruzada por una línea roja vertical que representa la ubicación de la puntada. En la parte superior se incluye el texto descriptivo "Figura 9. Folder sesgador de máquina recubridora y tipo de costura.".')
             .col-lg-3.d-none.d-lg-block
@@ -347,7 +356,7 @@
               figure
                 img(src='@/assets/curso/Tema2/fig10.png', alt='La imagen muestra, del lado izquierdo, un accesorio metálico de costura correspondiente a un dosificador de elástico, equipado con múltiples varillas, guías y tornillos ajustables. A su derecha, un diagrama esquemático ilustra el tipo de costura mediante líneas negras horizontales que representan la disposición del material, atravesadas verticalmente por una línea roja en forma de zigzag. ')
             .col-lg-5
-              h5 Adimentos
+              h5 Aditamentos
               p Portarrollos, dosificadores de elásticos.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -384,7 +393,7 @@
           figure
             img(src='@/assets/curso/Tema2/img13.png', alt='')
       
-      .row.justify-content-center.align-items-center(titulo="Adimentos")
+      .row.justify-content-center.align-items-center(titulo="Aditamentos")
         .col-lg-5.mb-3.mb-md-0
           ul.lista-ul
             li
@@ -424,7 +433,7 @@
     .cajon.color-secundario.p-4.mb-4
       p Este es un instrumento de precisión usado para toma de medidas específicas y exactas, especialmente ángulos y longitudes muy pequeñas. En la siguiente figura se observa un instrumento especialmente desarrollado por el SENA para este tipo de mediciones, en el cual los centímetros se convierten en fracciones de pulgada, como se observa en los laterales superior e inferior y lateral derecho, lo que facilita la medición de los anchos de costuras, y las puntadas por pulgada.
 
-    h4 Calibrador o galga
+
     p #[b Guías dobladilladoras:] graduables, para piezas rectas o curvas.
 
     .bg03.p-5.mb-4(data-aos="zoom-in-left")

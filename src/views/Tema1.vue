@@ -11,7 +11,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 En todo proceso productivo es necesario que tanto operarios como supervisores reconozcan la maquinaria y equipos que ser requieren para el proceso productivo, de forma que se garantice su adecuada utilización de acuerdo con la línea de producción en la cual se involucran. Así mismo, conocer en detalle la maquinaria, equipos y sistemas de medición permiten garantizar la calidad de las prendas confeccionadas.
+          p.mb-0 En todo proceso productivo es necesario que tanto operarios como supervisores reconozcan la maquinaria y equipos que se requieren para el proceso productivo, de forma que se garantice su adecuada utilización de acuerdo con la línea de producción en la cual se involucran. Así mismo, conocer en detalle la maquinaria, equipos y sistemas de medición permiten garantizar la calidad de las prendas confeccionadas.
             br
             | 
       separador
@@ -46,7 +46,7 @@
               img(src="@/assets/curso/Tema1/ico.svg")
             .col-lg-12
             p La característica principal de la máquina es la generación de una puntada recta de doble pespunte, la cual requiere que se entrelacen dos hilos, en la aguja y en el gancho donde se aloja la caja bobina con la bobina.
-            p En máquinas planas la velocidad máxima normalmente es de 3500 revoluciones por minuto (RPM) en motor de clutch, es decir, en máquinas mecánicas, si la máquina es automática alcanza las 4500 RPM, pero todo depende de la agilidad del operario y la dificultad del proceso de confección.
+            p En máquinas planas la velocidad máxima normalmente es de 3500 revoluciones por minuto (RPM) en motor de embrague (#[em clutch)], es decir, en máquinas mecánicas, si la máquina es automática alcanza las 4500 RPM, pero todo depende de la agilidad del operario y la dificultad del proceso de confección.
             p La máquina realiza operaciones básicas como unir piezas, hacer dobladillos, colocar cuellos, puños, ensamblar insumos como cremalleras, cintas, encajes, entre otras.
          
       p Las partes de la máquina plana una aguja son las siguientes:
@@ -80,8 +80,8 @@
                   td Guiahílos
                   td Orienta el hilo desde el cono hasta la aguja.
                 tr
-                  td Barra de la presión del prénsatela
-                  td Regula la presión del prénsatela.
+                  td Barra de la presión del prensatela
+                  td Regula la presión del prensatela.
                 tr
                   td Palanca tirahilo
                   td Suministra a la aguja el hilo para formar la puntada.
@@ -89,10 +89,10 @@
                   td Tensor del hilo de la aguja
                   td Sistema compuesto por 10 piezas que ajustan los discos tensores para graduar la fuerza al paso del hilo de la aguja.
                 tr
-                  td Barra del prénsatela
-                  td Por medio de un tornillo sostiene el pie prénsatela.
+                  td Barra del prensatela
+                  td Por medio de un tornillo sostiene el pie prensatela.
                 tr
-                  td Pie prénsatela
+                  td Pie prensatela
                   td Sujeta el material durante el proceso de costura.
                 tr
                   td Barra de aguja
@@ -114,7 +114,7 @@
                   td Carrete sobre el que se envuelve el hilo.
                 tr
                   td Rodillera
-                  td Acciona el prénsatela con el movimiento de la rodilla.
+                  td Acciona el prensatela con el movimiento de la rodilla.
       .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
         .col-lg-12
           .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -207,9 +207,9 @@
 
       .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-left")
         p Además, según las operaciones que desarrolle se puede modificar el mueble y se habla de fileteadoras de cama plana y fileteadora de cama sumergida o cama baja. La diferencia radica en el nivel del plano del cabezote en la mesa, si sobresale es cama plana y si se encuentra al mismo nivel es cama sumergida.
-        p La máquina se utiliza para sobrehilar piezas sencillas como falsos, aletilla, aletillón o para unir piezas por lados de costado, entrepierna, tiros y hombros. Para generar la puntada de filete la máquina requiere de tomadores de lazada llamados loopers.
+        p La máquina se utiliza para sobrehilar piezas sencillas como falsos, aletilla, aletillón o para unir piezas por lados de costado, entrepierna, tiros y hombros. Para generar la puntada de filete la máquina requiere de tomadores de lazada llamados #[em loopers].
 
-      p El volante de las máquinas fileteadoras es más pequeño lo que hace que se eleven las RPM, por lo tanto, puede alcanzar una velocidad máxima de hasta 5000 RPM en motor de clutch o mecánicas pero en máquinas automáticas pueden alcanzar los 6000 RPM.
+      p El volante de las máquinas fileteadoras es más pequeño lo que hace que se eleven las RPM, por lo tanto, puede alcanzar una velocidad máxima de hasta 5000 RPM en motor de #[em clutch] o mecánicas pero en máquinas automáticas pueden alcanzar los 6000 RPM.
       p Tiene partes similares de la máquina plana, las cuales se describen a continuación:
 
       .row.justify-content-center.align-items-center.mb-2.bg03.p-4(data-aos="zoom-in-left")
@@ -217,7 +217,7 @@
           .titulo-sexto.color-secundario(data-aos='fade-right')
             h5 Figura 1.
             span Partes de la fileteadora referencia JUKI MO-6704D.
-          img(src='@/assets/curso/Tema1/fig1.svg', alt='Infografía técnica que detalla los componentes de una máquina fileteadora JUKI MO-6704D mediante tres esquemas. A la izquierda, se ilustra el mecanismo interno mostrando el guiahílos y los loopers (superior, inferior y de puntada de seguridad). En el centro, se presenta el recorrido del hilo por la estructura y la ubicación de las cuchillas. A la derecha, se muestra el exterior del equipo, identificando los tensores, las tapas frontal y lateral, y el volante. El diseño visual sirve de guía para quienes operan la maquinaria en procesos de confección.')
+          img(src='@/assets/curso/Tema1/fig1.svg', alt='Infografía técnica que detalla los componentes de una máquina fileteadora JUKI MO-6704D mediante tres esquemas. A la izquierda, se ilustra el mecanismo interno mostrando el guiahílos y los  loopers (superior, inferior y de puntada de seguridad). En el centro, se presenta el recorrido del hilo por la estructura y la ubicación de las cuchillas. A la derecha, se muestra el exterior del equipo, identificando los tensores, las tapas frontal y lateral, y el volante. El diseño visual sirve de guía para quienes operan la maquinaria en procesos de confección.')
 
       p Las partes de la máquina fileteadora son las siguientes:
 
@@ -250,25 +250,25 @@
                   td Medidor de lubricación
                   td Indica el nivel de aceite que contiene la máquina.
                 tr
-                  td Barra de la presión del prénsatela
-                  td Regula la presión del prénsatela.
+                  td Barra de la presión del prensatela
+                  td Regula la presión del prensatela.
                 tr
-                  td Barra del prénsatela
-                  td Barra del prénsatela
+                  td Barra del prensatela
+                  td La barra del prensatelas es un componente metálico vertical de la máquina de coser donde se fija el pie prensatelas. Su función es mantenerlo en posición, orientar la tela y ejercer la presión necesaria para que los dientes de arrastre la desplacen de forma pareja durante la costura.
                 tr
-                  td Pie prénsatela
+                  td Pie prensatela
                   td Sujeta el material, en el proceso de costura, es movible, permite el transporte del material.
                 tr
                   td Dientes de arrastre
                   td Transportan el material. Consta de 3 dientes de los cuales dos se encuentran unidos en el mismo y se denominan diente principal y cadenel, y otro separado que se denomina diente diferencial.
                 tr
                   td Planchuela movible
-                  td Ubicada en el lado izquierdo del cabezote, se retira para poder enhebrar el hilo del looper de puntada de seguridad.
+                  td Ubicada en el lado izquierdo del cabezote, se retira para poder enhebrar el hilo del #[em looper] de puntada de seguridad.
                 tr
                   td Tapa frontal
-                  td Se desliza hacia la derecha y afuera para abrirla, permitiendo el enhebrado de los 3 loopers.
+                  td Se desliza hacia la derecha y afuera para abrirla, permitiendo el enhebrado de los 3 #[em loopers].
                 tr
-                  td Loopers
+                  td #[em Loopers]
                   td Encargados de hacer la lazada de la puntada de filete tres hilos; filete y puntada de refuerzo 4 hilos; filete con puntada de seguridad 5 hilos.
                 tr
                   td Botón diferencial
@@ -302,10 +302,10 @@
                   td Dispositivo que incluye los portaconos y guiahílos.
                 tr
                   td Portaconos
-                  td Soporte para ubicar hilos e hilazas. Depende de su tipo pueden ser que tenga 3, 4 o 5.
+                  td Soporte para ubicar hilos e hilazas. Según el tipo de máquina, puede tener 3, 4 o 5 portaconos.
                 tr
                   td Guiahílos
-                  td Todos los orificios que orientan el hilo desde el cono hasta la aguja y los loopers.
+                  td Todos los orificios que orientan el hilo desde el cono hasta la aguja y los #[em loopers].
                 tr
                   td Mesa
                   td Facilita el manejo de los materiales.
@@ -376,7 +376,7 @@
                 p.mb-0 #[b Cama cilíndrica:] especial para realizar operaciones de dobladillo tubular.
 
       .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-left")
-        p Las partes y funciones de la máquina son similares a la máquina fileteadora. La recubridora tiene un looper interno y un looper ciego para la puntada de recubridor, además tiene cinco sistemas tensores para cada hilo.
+        p Las partes y funciones de la máquina son similares a la máquina fileteadora. La recubridora tiene un #[em looper] interno y un #[em looper] ciego para la puntada de recubridor, además tiene cinco sistemas tensores para cada hilo.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
@@ -390,7 +390,7 @@
           img.izq.d-none.d-lg-block(src='@/assets/curso/Tema1/img06.png', alt='', style='object-fit: cover;')
         .col-lg-7.p-5
           br
-          p En la máquina plana automática, además de tener un tablero donde se programan costuras para remates, costuras continuas y costuras en cuadro, es posible programar funciones de corte de hilo, posicionar aguja y levantar y bajar pie. Existen tableros que además de ser táctiles, tienen tecnología de comunicación inalámbrica a través de celular (Near Field Communication NFC) donde se puede programar y realizar el control de funcionamiento de la máquina.
+          p En la máquina plana automática, además de tener un tablero donde se programan costuras para remates, costuras continuas y costuras en cuadro, es posible programar funciones de corte de hilo, posicionar aguja y levantar y bajar pie. Existen tableros que además de ser táctiles, tienen tecnología de comunicación inalámbrica a través de celular (Near Field Communication #[em NFC]) donde se puede programar y realizar el control de funcionamiento de la máquina.
           p Los motores de las máquinas se han reemplazado por motores que ahorran energía, causan menos ruido y vibración, además de tener mayor nivel de velocidad. También existen motores mecatrónicos los cuales están integrados con el cabezote, logrando un mejor desempeño.
 
       .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
@@ -455,7 +455,7 @@
         .col-lg-12.mb-3
           img(src='@/assets/curso/Tema1/im07.png', alt='')
         .col-lg-12
-          p En la confección de bóxer, pantys, brasieres, tops se requieren además de las máquinas básicas, máquinas con aditamentos como los dosificadores de elástico, máquina plana dos agujas, presilladora y zigzadora.
+          p En la confección de bóxer, panties, brasieres, tops se requieren además de las máquinas básicas, máquinas con aditamentos como los dosificadores de elástico, máquina plana dos agujas, presilladora y zigzadora.
 
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -484,18 +484,18 @@
               .col-lg-5.mb-4.mb-md-0
                 h4 Máquina zigzadora
                 p Tiene partes similares de la máquina plana, en la máquina zigzadora se encuentran botones reguladores del ancho y largo del zigzag, y cuenta con un mecanismo de alimentación para desarrollar la puntada.
-                p Las operaciones que se desarrollan con las costuras de zigzag en tres pasos son: fijación de elásticos en pantys y brasieres.
+                p Las operaciones que se desarrollan con las costuras de zigzag en tres pasos son: fijación de elásticos en panties y brasieres.
 
               .col-lg-6.col-md-9
                 .titulo-sexto.color-secundario(data-aos='fade-right')
                   h5 Figura 3.
-                  span Partes de la máquina zigzadora Brother ZM-85-1A.
+                  span Partes de la máquina zigzadora Brother ZM-851A.
                 img(src='@/assets/curso/Tema1/fig3.png', alt='La imagen muestra una ilustración de una máquina de coser zigzadora montada sobre una mesa de trabajo. Mediante líneas indicadoras, el diagrama señala tres de sus partes principales: el alimentador de hilo en la parte frontal, el visor de aceite en la parte superior y el botón graduador de puntada en el lateral derecho. ')
 
             .row.justify-content-center.align-items-center
               .col-lg-5.mb-4.mb-md-0
                 h4 Presilladora
-                p Es una máquina robusta que desarrolla las costuras de presilla para reforzar piezas, por ejemplo la fijación de tirantas de brasier, remates en costados de pantys y separación de sesgos.
+                p Es una máquina robusta que desarrolla las costuras de presilla para reforzar piezas, por ejemplo la fijación de tirantas de brasier, remates en costados de panties y separación de sesgos.
                 p Las siguientes son sus partes:
 
               .col-lg-6.col-md-9
@@ -507,8 +507,8 @@
 
             .row.justify-content-center.align-items-center
               .col-lg-5.mb-4.mb-md-0
-                h4 Flat seamer
-                p Máquina especializada en la unión de costuras tope a tope, utilizada en el caso de unión de bóxer o en prendas de control; la máquina tiene 4 agujas, 3 loopers, par de cuchillas para refilar el material sobrante.
+                h4 #[em Flat seamer]
+                p Máquina especializada en la unión de costuras tope a tope, utilizada en el caso de unión de bóxer o en prendas de control; la máquina tiene 4 agujas, 3 #[em loopers], par de cuchillas para refilar el material sobrante.
               .col-lg-5.col-md-9
                 img(src='@/assets/curso/Tema1/fig04.png', alt='')
 
@@ -536,28 +536,30 @@
       #t_1_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
         h2 1.3  Maquinaria y equipo ropa deportiva
       
-      p La confección de prendas deportivas requiere del uso de maquinaria y equipo especializada, la cual permite realizar acabados y diferenciación en las prendas.
+      p La confección de prendas deportivas requiere del uso de maquinaria y equipo especializado, el cual permite realizar acabados y diferenciación en las prendas.
+
+
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text Partes, características y usos de la máquinas de ropa deportiva
-      p Para el desarrollo de ropa deportiva además de la maquinaria básica se utilizan:
+            h3.bg04.py-2.w-card-text Máquina industrial encauchadora
+
 
       .row.justify-content-center.align-items-stretch.mb-4
         .col-lg-4.col-8.mb-3.col-md-4
           img(src="@/assets/curso/Tema1/img08.png")
         .col-lg-8.bg09.p-5.mb-3
           h4.bg5.py-2.w-card-text3.mb-4 Encauchadoras
-          p.text-white Máquina de 4 agujas y 4 loopers, tiene un pooler (sistema de rodillos) el cual ayuda al arrastre de la pieza encauchada. Se adiciona aditamentos de soporte para el caucho y portarrollos para la alimentación del elástico.
+          p.text-white Máquina de 4 agujas y 4 #[em loopers], tiene un #[em pooler] (sistema de rodillos) el cual ayuda al arrastre de la pieza encauchada. Se adiciona aditamentos de soporte para el caucho y portarrollos para la alimentación del elástico.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text Tecnología en maquinaria y equipos de ropa deportiva
-      p Para el desarrollo de ropa deportiva además de la maquinaria básica se utilizan:
+            h3.bg04.py-2.w-card-text Máquinas electrónicas
+   
 
       .bloque-texto-g.bg07.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
         .bloque-texto-g__img(
@@ -576,7 +578,7 @@
       .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
         .col-lg-12.mb-3
           img(src='@/assets/curso/Tema1/img10.png', alt='')
-      p Las prendas en denim tienen un gran posicionamiento en el mercado, conforme al alto número de operaciones de cada prenda, se han desarrollado máquinas especializadas en las procesos para mejorar el rendimiento de la producción.
+      p Las prendas en denim tienen un gran posicionamiento en el mercado, conforme al alto número de operaciones de cada prenda, se han desarrollado máquinas especializadas en los procesos para mejorar el rendimiento de la producción.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
@@ -602,14 +604,14 @@
 
         .row.justify-content-center.align-items-center(titulo="Pretinadora o empreteinadora")
           .col-lg-6.mb-3.mb-md-0
-            p Dispone de 4 agujas 4 loopers, pooler para el arrastre de la pieza, requiere de montaje de guías para pasar la pieza de pretina.
+            p Dispone de 4 agujas 4 #[em loopers], #[em pooler] para el arrastre de la pieza, requiere de montaje de guías para pasar la pieza de pretina.
           .col-lg-5.col-md-7.col-10
             figure
               img(src='@/assets/curso/Tema1/3.png', alt='')
 
         .row.justify-content-center.align-items-center(titulo="Cerradora de codo")
           .col-lg-6.mb-3.mb-md-0
-            p Dispone de 2 o 3 agujas y 2 o 3 loopers según corresponda, requiere de un pooler para el arrastre del material. La forma del cabezote similar a un brazo doblado realiza operaciones de unión de piezas. Al colocarse la guía tipo caracol realiza costuras engarzadas para cerrar las piezas. En ropa deportiva se puede utilizar con un embudo o folder para sesgo aéreo y fijar el sesgo en los hombros y parte de escote (cinta hombros).
+            p Dispone de 2 o 3 agujas y 2 o 3 #[em loopers] según corresponda, requiere de un #[em pooler] para el arrastre del material. La forma del cabezote similar a un brazo doblado realiza operaciones de unión de piezas. Al colocarse la guía tipo caracol realiza costuras engarzadas para cerrar las piezas. En ropa deportiva se puede utilizar con un embudo o #[em folder] para sesgo aéreo y fijar el sesgo en los hombros y parte de escote (cinta hombros).
           .col-lg-5.col-md-7.col-10
             .titulo-sexto.color-secundario(data-aos='fade-right')
               h5 Figura 5.
@@ -636,7 +638,7 @@
         .col-sm-12.col-lg-12
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text Partes, características y usos de las máquinas de ropa denim
+            h3.bg04.py-2.w-card-text Tecnología en maquinaria y equipos de ropa denim
 
       p Esta tecnología ha automatizado los procesos, por ejemplo, en operaciones de coser bolsillos los semirobot recogen la pieza, fijan los bolsillos y retiran la pieza de manera organizada. Existen también máquinas automatizadas que realizan pasadores, los cortan y los cosen a la prenda.
 
@@ -685,23 +687,23 @@
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Ston o desgaste:] efecto de envejecimiento o desgaste.
+                  p.mb-0 #[b #[em Ston] o desgaste:] efecto de envejecimiento o desgaste.
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Bleach o blanqueamiento:] logra un efecto aclarante.
+                  p.mb-0 #[b #[em Bleach] o blanqueamiento:] logra un efecto aclarante.
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Dirty:] acabado envejecido.
+                  p.mb-0 #[b #[em Dirty]:] acabado envejecido.
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Destroyed:] deshilachados.
+                  p.mb-0 #[b #[em Destroyed]:] deshilachados.
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Otros:] craquelado, tye die, relieve, salpicados, desgastes, revestimientos, teñidos.
+                  p.mb-0 #[b Otros:] craquelado, #[em tye die], relieve, salpicados, desgastes, revestimientos, teñidos.
         
         .py-3.py-md-4(titulo="Proceso de bordado")
           .row.justify-content-center.align-items-center
