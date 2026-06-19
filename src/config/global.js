@@ -285,7 +285,7 @@ export default {
         {
           nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercios y Servicios - Regional Tolima',
         },
       ],
     },
