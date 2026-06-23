@@ -333,8 +333,7 @@
                   | #[b Sesgadores:] sencillos o dobles, para cubrir orillos en escotes, sisas, dobladillos. De diferentes medidas de acuerdo con la medida del ancho de sesgo.
                 li
                   i.fas.fa-hilo
-                  | #[b Sesgador aéreo:] fijar encima de la prenda, los llamados tipo Adidas, quien fue la marca que popularizado este tipo de sesgos.
-
+                  | #[b Sesgador aéreo:] accesorio de confección industrial que dobla y guía automáticamente una tira de bies (sesgo) hacia la aguja de la máquina de coser, facilitando su aplicación en los bordes de la prenda. Su alimentación elevada reduce la manipulación manual, mejorando la precisión y la productividad del proceso.
                 li
                   i.fas.fa-hilo
                   | Sesgador para pasadores.

@@ -703,7 +703,7 @@
 
                 li.d-flex.mb-0
                   i.fas.fa-hilo
-                  p.mb-0 #[b Otros:] craquelado, #[em tye die], relieve, salpicados, desgastes, revestimientos, teñidos.
+                  p.mb-0 #[b Otros:] craquelado, #[em tye-die], relieve, salpicados, desgastes, revestimientos, teñidos.
         
         .py-3.py-md-4(titulo="Proceso de bordado")
           .row.justify-content-center.align-items-center

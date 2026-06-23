@@ -308,7 +308,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Tomadores de lazada llamados loopers.',
+              texto: 'Tomadores de lazada llamados <i>loopers</i>.',
               esCorrecta: true,
             },
             {
@@ -323,7 +323,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Un folder tipo avión.',
+              texto: 'Un <i>folder</i> tipo avión.',
               esCorrecta: false,
             },
           ],
@@ -361,7 +361,7 @@ export default {
             {
               id: 'd',
               texto:
-                'En la cama plana no se utilizan loopers y en la cama sumergida sí.',
+                'En la cama plana no se utilizan <i>loopers</i> y en la cama sumergida sí.',
               esCorrecta: false,
             },
           ],
@@ -542,7 +542,7 @@ export default {
 
         {
           id: 16,
-          texto: '¿Qué caracteriza a la máquina flat seamer?',
+          texto: '¿Qué caracteriza a la máquina <i>flat seamer</i>?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
@@ -698,7 +698,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Para programar tableros digitales con tecnología NFC.',
+              texto:
+                'Para programar tableros digitales con tecnología <i>NFC</i>.',
               esCorrecta: false,
             },
             {

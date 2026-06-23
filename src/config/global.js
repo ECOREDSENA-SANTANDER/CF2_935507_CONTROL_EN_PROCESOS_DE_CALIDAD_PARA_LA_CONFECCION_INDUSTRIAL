@@ -245,6 +245,11 @@ export default {
           cargo: 'Experta temática',
           centro: 'Centro Agroturístico - Regional Santander',
         },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez ',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital',
+        },
       ],
     },
     {
