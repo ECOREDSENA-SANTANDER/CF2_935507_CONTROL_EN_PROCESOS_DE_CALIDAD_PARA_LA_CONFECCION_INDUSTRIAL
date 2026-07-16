@@ -422,7 +422,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Para hacer ojal de lágrima en prendas denim.',
+              texto: 'Para hacer ojal de lágrima en prendas <i>denim</i>.',
               esCorrecta: false,
             },
             {
@@ -576,7 +576,7 @@ export default {
         {
           id: 17,
           texto:
-            '¿Qué máquina utilizada en ropa denim requiere montaje de guías para pasar la pieza de pretina?',
+            '¿Qué máquina utilizada en ropa <i>denim</i> requiere montaje de guías para pasar la pieza de pretina?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [

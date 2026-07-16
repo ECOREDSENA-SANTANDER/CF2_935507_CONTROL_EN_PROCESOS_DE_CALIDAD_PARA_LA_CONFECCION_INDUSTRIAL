@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.mb-2.bg03.p-4(data-aos="zoom-in-left")
       .col-lg-8.col-md-10
         .titulo-sexto.color-secundario(data-aos='fade-right')
-          h5 Figura 6.
+          h5 Figura 7.
           span Partes de la aguja.
         img(src='@/assets/curso/Tema2/fig6.svg', alt='Ilustración técnica titulada "Partes de la aguja" que detalla la anatomía de una aguja de costura industrial para la guía de quienes operan la maquinaria. El esquema se divide en tres partes: a la izquierda, muestra una aguja completa identificando el talón (butt), el tronco (shank) y la hoja (blade), con un círculo que amplía la punta mediante una lupa para señalar la ranura corta (short groove), el ojo (eye), la punta (point) y el extremo (tip). A la derecha, dos vistas complementarias de perfil identifican la ranura larga (long groove), la hendidura (scarf), la segunda ranura larga (second long groove) y el rebaje (land).')
 
@@ -42,7 +42,7 @@
             img(src="@/assets/curso/Tema2/img04.svg")
           .col-lg-12
             p Dependiendo del tipo de máquina, marca, modelo y proceso a desarrollar se estima el sistema de aguja, el cual debe adecuarse a la geometría de la máquina, se debe consultar el manual de instrucciones de la máquina para asignar la referencia o sistema.
-            p En el siguiente cuadro se especifican algunas referencias de agujas más generalizadas:
+            p En la siguiente tabla se especifican algunas referencias de agujas más generalizadas:
 
     .row.justify-content-center.mb-3(data-aos="zoom-in-left")
       .titulo-sexto.color-secundario
@@ -162,7 +162,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-10
         .titulo-sexto.color-secundario(data-aos='fade-right')
-          h5 Figura 7.
+          h5 Figura 8.
           span Puntas de agujas.
         img(src='@/assets/curso/Tema2/fig7.svg', alt='Tabla técnica titulada "Puntas de agujas" que clasifica en ocho filas los diferentes tipos de puntas para maquinaria de costura industrial, sirviendo de guía para quienes seleccionan los insumos de confección. Cada fila contiene: a la izquierda, una ilustración del perfil de la aguja con un círculo que amplifica la silueta específica de su punta; al centro, las siglas técnicas (como TR, SKL, G, FG/SUK, FFG/SES, RG, R, RS) junto a la denominación del tipo de punta (puntas de bola especiales, pesada, mediana, fina, o puntas redondas ligeramente redondeada, normal y afilada); y a la derecha, una descripción detallada con la aplicación recomendada según el tipo de tejido o costura a realizar.')
 
@@ -322,7 +322,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-6.col-md-10.bg03.p-4.mb-3
               .titulo-sexto.color-secundario(data-aos='fade-right')
-                h5 Figura 8.
+                h5 Figura 9.
                 span Guía dobladilladora graduable.
               figure
                 img(src='@/assets/curso/Tema2/fig8.png', alt='La imagen muestra, en el lado izquierdo, un accesorio de costura metálico correspondiente a una guía dobladilladora graduable, la cual cuenta con una placa deslizante fijada por dos tornillos y marcas numéricas de medición. A su derecha, un diagrama esquemático ilustra cómo se pliega la tela para formar un dobladillo, indicando la posición de la costura mediante dos líneas rojas verticales que terminan en forma de zigzag. ')
@@ -340,17 +340,17 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-6.col-md-10.bg03.p-4
               .titulo-sexto.color-secundario(data-aos='fade-right')
-                h5 Figura 9.
+                h5 Figura 10.
                 span #[em Folder] sesgador de máquina recubridora y tipo de costura.
               figure
-                img(src='@/assets/curso/Tema2/fig9.png', alt='La imagen muestra, en el lado izquierdo, un accesorio metálico de costura conocido como folder sesgador, el cual cuenta con guías de alambre onduladas y piezas de metal plegadas. A su derecha, un diagrama ilustra el tipo de costura mostrando cómo una cinta de tela envuelve y se dobla sobre el borde de otra pieza plana, cruzada por una línea roja vertical que representa la ubicación de la puntada. En la parte superior se incluye el texto descriptivo "Figura 9. Folder sesgador de máquina recubridora y tipo de costura.".')
+                img(src='@/assets/curso/Tema2/fig9.png', alt='La imagen muestra, en el lado izquierdo, un accesorio metálico de costura conocido como folder sesgador, el cual cuenta con guías de alambre onduladas y piezas de metal plegadas. A su derecha, un diagrama ilustra el tipo de costura mostrando cómo una cinta de tela envuelve y se dobla sobre el borde de otra pieza plana, cruzada por una línea roja vertical que representa la ubicación de la puntada. En la parte superior se incluye el texto descriptivo "Figura 10. Folder sesgador de máquina recubridora y tipo de costura.".')
             .col-lg-3.d-none.d-lg-block
               img(src='@/assets/curso/Tema2/img12.png', alt='')
 
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-6.col-md-10.bg03.p-4.mb-3
               .titulo-sexto.color-secundario(data-aos='fade-right')
-                h5 Figura 10.
+                h5 Figura 11.
                 span Dosificador de elástico y tipo de costura.
               figure
                 img(src='@/assets/curso/Tema2/fig10.png', alt='La imagen muestra, del lado izquierdo, un accesorio metálico de costura correspondiente a un dosificador de elástico, equipado con múltiples varillas, guías y tornillos ajustables. A su derecha, un diagrama esquemático ilustra el tipo de costura mediante líneas negras horizontales que representan la disposición del material, atravesadas verticalmente por una línea roja en forma de zigzag. ')
@@ -380,7 +380,7 @@
           
         .col-lg-6.col-md-10.col-10
           .titulo-sexto.color-secundario(data-aos='fade-right')
-            h5 Figura 11.
+            h5 Figura 12.
             span Guía de almilla para dos agujas y tipo de costura.
           figure
             img(src='@/assets/curso/Tema2/fig11.png', alt='La imagen muestra una guía metálica de almilla para máquina de coser de dos agujas en el lado izquierdo, junto con un diagrama explicativo a su derecha. El diagrama ilustra mediante líneas cómo se pliegan y superponen las piezas de tela, destacando en color rojo la línea por donde pasa la costura. ')
@@ -405,7 +405,7 @@
           
         .col-lg-6.col-md-10.col-10
           .titulo-sexto.color-secundario(data-aos='fade-right')
-            h5 Figura 12.
+            h5 Figura 13.
             span Portarrollos para zigzadora con dosificador de elástico.
           figure
             img(src='@/assets/curso/Tema2/fig12.png', alt='La imagen muestra un accesorio de costura metálico fotografiado sobre un fondo blanco. El dispositivo consta de grandes discos blancos en la parte superior diseñados para sostener un carrete, los cuales están unidos a una estructura articulada de varillas de metal que incluye bases ajustables y guías en la parte inferior. ')
@@ -439,7 +439,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.col-md-10
           .titulo-sexto.color-secundario(data-aos='fade-right')
-            h5 Figura 13.
+            h5 Figura 14.
             span Guía Dobladilladora graduable
           img(src='@/assets/curso/Tema2/figu13.png', alt='Herramienta de medición de forma cuadrada denominada Calibrador, identificada institucionalmente con el logotipo del SENA en el centro. El diseño cuenta con una regla graduada en su margen izquierdo numerada del cero al cinco, y ranuras de inspección distribuidas en sus bordes perimetrales acompañadas por sus respectivas especificaciones de medida en fracciones de pulgada.')
 
@@ -449,7 +449,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-11.col-md-10
           .titulo-sexto.color-secundario(data-aos='fade-right')
-            h5 Figura 14.
+            h5 Figura 15.
             span Calibrador de Vernier o Pie de rey.
           img(src='@/assets/curso/Tema2/fig14.png', alt='La imagen muestra un calibrador de Vernier o pie de rey digital apoyado sobre unos planos técnicos. El instrumento tiene su pantalla encendida, indicando una medida de 14.73 mm.')
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")

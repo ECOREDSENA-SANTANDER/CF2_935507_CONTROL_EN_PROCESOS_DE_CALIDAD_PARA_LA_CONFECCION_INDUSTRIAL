@@ -52,7 +52,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Maquinaria y equipo ropa en denim',
+            titulo: 'Maquinaria y equipo ropa en <i>denim</i>',
             hash: 't_1_4',
           },
           {
@@ -241,14 +241,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Sandra Cecilia Gutiérrez',
-          cargo: 'Experta temática',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Rafael Nelftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Vilma Lucía Perilla Méndez ',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Regional Distrito Capital',
+          nombre: 'Sandra Cecilia Gutiérrez',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Gestión Empresarial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Oscar Andrés Fernández Urrego',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - CENIGRAF - Regional Bogotá',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },

@@ -18,10 +18,15 @@
       #t_1_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
         h2 1.1  Maquinaria y equipo en ropa exterior
 
+      
       p Todas las máquinas costan de 3 componentes:
+
+      .titulo-sexto.color-secundario(data-aos='fade-right')
+          h5 Figura 1.
+          span Componentes de una máquina de confección.
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-12
-          img(src='@/assets/curso/Tema1/img02.svg', alt='')
+          img(src='@/assets/curso/Tema1/img02.svg', alt='Ilustración de una máquina de confección que señala sus tres componentes: área de trabajo, sustentadores y transmisiones de energía.')
 
       .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-left")
         p En el proceso de confección de la ropa exterior se utiliza en gran medida la maquinaria básica. Adicionalmente se incluyen máquinas de terminados como la ojaladora y la botonadora, teniendo en cuenta las operaciones requeridas para la confección de la prenda. Además, se incluyen otros como el de planchado, conformado por la mesa, la caldera y la plancha industrial; y las prehormadoras especiales para cuellos, puños y bolsillos.
@@ -210,16 +215,16 @@
         p La máquina se utiliza para sobrehilar piezas sencillas como falsos, aletilla, aletillón o para unir piezas por lados de costado, entrepierna, tiros y hombros. Para generar la puntada de filete la máquina requiere de tomadores de lazada llamados #[em loopers].
 
       p El volante de las máquinas fileteadoras es más pequeño lo que hace que se eleven las RPM, por lo tanto, puede alcanzar una velocidad máxima de hasta 5000 RPM en motor de #[em clutch] o mecánicas pero en máquinas automáticas pueden alcanzar los 6000 RPM.
-      p Tiene partes similares de la máquina plana, las cuales se describen a continuación:
+      p La máquina fileteadora cuenta con componentes específicos que intervienen en el guiado de los hilos, la formación de la puntada, el corte del material y el transporte de la tela. En la siguiente figura se identifican algunas de sus partes principales.
 
       .row.justify-content-center.align-items-center.mb-2.bg03.p-4(data-aos="zoom-in-left")
         .col-lg-11.col-md-10
           .titulo-sexto.color-secundario(data-aos='fade-right')
-            h5 Figura 1.
+            h5 Figura 2.
             span Partes de la fileteadora referencia JUKI MO-6704D.
           img(src='@/assets/curso/Tema1/fig1.svg', alt='Infografía técnica que detalla los componentes de una máquina fileteadora JUKI MO-6704D mediante tres esquemas. A la izquierda, se ilustra el mecanismo interno mostrando el guiahílos y los  loopers (superior, inferior y de puntada de seguridad). En el centro, se presenta el recorrido del hilo por la estructura y la ubicación de las cuchillas. A la derecha, se muestra el exterior del equipo, identificando los tensores, las tapas frontal y lateral, y el volante. El diseño visual sirve de guía para quienes operan la maquinaria en procesos de confección.')
 
-      p Las partes de la máquina fileteadora son las siguientes:
+      p A continuación, se describen las principales partes de la máquina fileteadora y sus respectivas funciones:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
         .col-lg-12
@@ -476,9 +481,9 @@
 
               .col-lg-6.col-md-9
                 .titulo-sexto.color-secundario(data-aos='fade-right')
-                  h5 Figura 2.
+                  h5 Figura 3.
                   span Partes máquina dos agujas.
-                img(src='@/assets/curso/Tema1/fig2.png', alt='La imagen muestra una ilustración de una máquina de coser industrial plana de dos agujas montada sobre una mesa de trabajo. Mediante líneas indicadoras, el diagrama señala sus diferentes partes principales: dos sistemas tensores, el ecualizador, los pies prensatela, el devanador, el volante y el motor situado debajo de la mesa.')
+                img(src='@/assets/curso/Tema1/fig3.png', alt='La imagen muestra una ilustración de una máquina de coser industrial plana de dos agujas montada sobre una mesa de trabajo. Mediante líneas indicadoras, el diagrama señala sus diferentes partes principales: dos sistemas tensores, el ecualizador, los pies prensatela, el devanador, el volante y el motor situado debajo de la mesa.')
        
             .row.justify-content-center.align-items-center
               .col-lg-5.mb-4.mb-md-0
@@ -488,9 +493,9 @@
 
               .col-lg-6.col-md-9
                 .titulo-sexto.color-secundario(data-aos='fade-right')
-                  h5 Figura 3.
+                  h5 Figura 4.
                   span Partes de la máquina zigzadora Brother ZM-851A.
-                img(src='@/assets/curso/Tema1/fig3.png', alt='La imagen muestra una ilustración de una máquina de coser zigzadora montada sobre una mesa de trabajo. Mediante líneas indicadoras, el diagrama señala tres de sus partes principales: el alimentador de hilo en la parte frontal, el visor de aceite en la parte superior y el botón graduador de puntada en el lateral derecho. ')
+                img(src='@/assets/curso/Tema1/fig2.png', alt='La imagen muestra una ilustración de una máquina de coser zigzadora montada sobre una mesa de trabajo. Mediante líneas indicadoras, el diagrama señala tres de sus partes principales: el alimentador de hilo en la parte frontal, el visor de aceite en la parte superior y el botón graduador de puntada en el lateral derecho. ')
 
             .row.justify-content-center.align-items-center
               .col-lg-5.mb-4.mb-md-0
@@ -500,7 +505,7 @@
 
               .col-lg-6.col-md-9
                 .titulo-sexto.color-secundario(data-aos='fade-right')
-                  h5 Figura 4.
+                  h5 Figura 5.
                   span Partes presilladora.
                 img(src='@/assets/curso/Tema1/fig4.png', alt='La imagen muestra a la izquierda una fotografía en primer plano de unas manos operando una máquina de coser sobre una prenda de tela de jean. A la derecha, sobre un fondo gris, se presenta una lista enumerando las partes de la máquina: barra aguja, pie prensatela, gancho, dientes, planchuela, guiahilos, portaconos y tensores, destacando que cuenta con dos de estos últimos para el mismo hilo de la aguja. ')
      
@@ -573,18 +578,18 @@
 
       separador
       #t_1_4.titulo-segundo.mb-5(data-aos="zoom-in-left")
-        h2 1.4  Maquinaria y equipo ropa en denim
+        h2 1.4  Maquinaria y equipo ropa en #[em denim]
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
         .col-lg-12.mb-3
           img(src='@/assets/curso/Tema1/img10.png', alt='')
-      p Las prendas en denim tienen un gran posicionamiento en el mercado, conforme al alto número de operaciones de cada prenda, se han desarrollado máquinas especializadas en los procesos para mejorar el rendimiento de la producción.
+      p Las prendas en #[em denim] tienen un gran posicionamiento en el mercado, conforme al alto número de operaciones de cada prenda, se han desarrollado máquinas especializadas en los procesos para mejorar el rendimiento de la producción.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text Partes, características y usos de las máquinas de ropa denim
+            h3.bg04.py-2.w-card-text Partes, características y usos de las máquinas de ropa #[em denim]
 
 
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
@@ -614,7 +619,7 @@
             p Dispone de 2 o 3 agujas y 2 o 3 #[em loopers] según corresponda, requiere de un #[em pooler] para el arrastre del material. La forma del cabezote similar a un brazo doblado realiza operaciones de unión de piezas. Al colocarse la guía tipo caracol realiza costuras engarzadas para cerrar las piezas. En ropa deportiva se puede utilizar con un embudo o #[em folder] para sesgo aéreo y fijar el sesgo en los hombros y parte de escote (cinta hombros).
           .col-lg-5.col-md-7.col-10
             .titulo-sexto.color-secundario(data-aos='fade-right')
-              h5 Figura 5.
+              h5 Figura 6.
               span Partes maquina cerradora de codo Brother DA-9280.
             figure
               img(src='@/assets/curso/Tema1/4.png', alt='Ilustración técnica titulada "Partes maquina cerradora de codo Brother DA-9280". El esquema detalla la estructura anatómica del equipo para la guía de quienes lo operan en la confección industrial, identificando sus partes principales: los tensores en la parte superior del cabezal, los canales guía hilos en el soporte inclinado de la derecha, y el prensatelas junto con los loopers en la zona frontal izquierda de costura, mostrando una sección translúcida que deja ver los mecanismos internos inferiores.')
@@ -638,7 +643,7 @@
         .col-sm-12.col-lg-12
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema2/ico.svg")
-            h3.bg04.py-2.w-card-text Tecnología en maquinaria y equipos de ropa denim
+            h3.bg04.py-2.w-card-text Tecnología en maquinaria y equipos de ropa #[em denim]
 
       p Esta tecnología ha automatizado los procesos, por ejemplo, en operaciones de coser bolsillos los semirobot recogen la pieza, fijan los bolsillos y retiran la pieza de manera organizada. Existen también máquinas automatizadas que realizan pasadores, los cortan y los cosen a la prenda.
 
