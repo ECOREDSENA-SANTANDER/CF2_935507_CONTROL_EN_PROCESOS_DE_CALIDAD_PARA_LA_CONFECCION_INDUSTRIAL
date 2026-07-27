@@ -261,7 +261,7 @@ export default {
           nombre: 'Oscar Andrés Fernández Urrego',
           cargo: 'Evaluador instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - CENIGRAF - Regional Bogotá',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Julieth Paola Vital López',

@@ -660,7 +660,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-4.col-10.mb-3.mt-3
                 figure
-                  img(src='@/assets/curso/Tema1/img011.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/img011.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               ul.lista-ul
                 li.d-flex
@@ -678,7 +678,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-4.col-10.mb-3.mt-3
                 figure
-                  img(src='@/assets/curso/Tema1/img12.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/img12.png', alt='')
             .col-lg-7.mb-4.mb-md-0
               p Se utilizan lavadoras especiales a temperaturas especificadas, con el fin de cambiar la textura de la prenda, se presenta varios procesos:
               ul.lista-ul
@@ -714,7 +714,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-4.col-10.mb-3.mt-3
                 figure
-                  img(src='@/assets/curso/Tema1/img13.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/Tema1/img13.png', alt='')
             .col-lg-7.mb-4.mb-md-0
               p Máquinas multicabezas de 4, 6 hasta 12 cabezales desarrollan simultáneamente un diseño elaborado en programas especializados. Utiliza varias agujas y un gancho. Según la posición del bordado, para bordar gorras se requiere un bastidor especial para posicionar la pieza.
 
