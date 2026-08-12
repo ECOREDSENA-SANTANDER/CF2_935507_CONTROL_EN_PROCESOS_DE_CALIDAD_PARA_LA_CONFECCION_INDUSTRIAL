@@ -264,7 +264,7 @@ export default {
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
-          nombre: 'JJulieth Paola Vital López',
+          nombre: 'Julieth Paola Vital López',
           cargo: 'Corrección de estilo',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
